@@ -1,0 +1,87 @@
+* {
+    background-color: hsl(48, 100%, 90%);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.homepage {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav {
+    background-color: black;
+    width: max-content;
+}
+
+
+a {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding: 10px;
+}
+
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  .terms {
+      width: 90%;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr ;
+      grid-row-gap: 10px;
+      grid-column-gap: 10px;
+      background-color: black;
+  }
+
+  .terms3 {
+    width: 90%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color: black;
+}
+
+.terms4 {
+  width: 90%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  background-color: black;
+}
+.terms2 {
+  width: 90%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  background-color: black;
+}

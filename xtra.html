@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <template></template>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A quick references page for media queries, import, and font face variables.">
+    <meta name="keywords" content="css, media, cheat, sheet,properties,query,feature">
+    <meta name="author" content="Hernan Acosta">
+    <link rel="stylesheet" href="css/style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap'); </style>
+    <title>HTML/CSS Cheatsheet</title>
+    <!-- A web page that lists the media query, feature query, import, and font face CSS at-rules.-->
+</head>
+<body class="body">
+    <div>
+        <nav class="nav">
+            <a href="/homepage.html" class="nav">Homepage</a>
+            <a href="/xtra.html" class="nav">Media Query CSS</a>
+            <a href="/ta.html" class="nav">Tags & attributes HTML</a>
+            <a href="/cssinterface.html" class="nav">Interface properties CSS</a>
+            <a href="/boxmodel.html" class="nav">Box Model CSS</a>
+            <a href="/feedback.html" class="nav">Feedback</a>
+        </nav>
+        </div>
+        <h1>Media Query CSS</h1>
+        <div class="terms">
+            <div>
+                <h2>Media Query</h2>
+            <div class="note">
+                <p>Term: Media Screen </p>
+                <p>Purpose:This targets for devices using screens</p>
+                <p>Example:</p><code>@media screen and (max-width: 600px) 
+                    div.example {
+                      display: none;
+                    }
+                  </code> </p>
+            </div>
+        
+            <div class="note">
+                <p>Term: Media print </p>
+                <p>Purpose: To print preview the page</p>
+                <p>Example:</p><code>@media print {
+                    body { font-size: 10pt; }
+                  }</code> </p>
+            </div>
+            </div>
+            <div>
+                <h2>Feature Query</h2>
+            <div class="note">
+                <p>Term: Support Query </p>
+                <p>Purpose:A way for developers to test if a website supports certain features</p>
+                <p>Example:</p><code>@supports not (row-gap: 10px) {
+                    .box {
+                        border: 4px solid red;
+                        color: red;
+                    }
+                }</code> </p>
+            </div>
+        
+            <div class="note">
+                <p>Term: Support Query </p>
+                <p>Purpose:Tests if website supports css grid.</p>
+                <p>Example:</p><code>@supports (display: grid)</code> </p>
+            </div>
+            </div>
+            <div>
+                <h2>Import</h2>
+            <div class="note">
+                <p>Term: Import URL</p>
+                <p>Purpose:A source to pull resources from </p>
+                <p>Example:</p><code>@import url list-of-media-queries;</code> </p>
+            </div>
+        
+            <div class="note">
+                <p>Term: Import Font</p>
+                <p>Purpose:</p>
+                <p>Example:</p><code>@font-face {
+                    font-family: myFirstFont;
+                    src: url(sansation_light.woff);
+                  }</code> </p>
+            </div>
+            </div>
+            <div>
+                <h2>Font face</h2>
+            <div class="note">
+                <p>Term: Source </p>
+                <p>Purpose:Give the CSS file a font file path to pull the data from</p>
+                <p>Example:</p><code>src: url(sansation_bold.woff);</code> </p>
+            </div>
+        
+            <div class="note">
+                <p>Term: Font Face</p>
+                <p>Purpose:To tell the css page to select a non-native font</p>
+                <p>Example:</p><code>@font-face</code> </p>
+            </div>
+            </div>
+        </div>
+</body>
+</html>
